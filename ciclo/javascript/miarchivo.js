@@ -1,4 +1,4 @@
-// Programa que me calcula el total a pagar de productos seleccionados
+Programa que me calcula el total a pagar de productos seleccionados
 
 let producto = prompt("Ingrese el  Producto a Comprar");
 while (producto != "Salir") {
