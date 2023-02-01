@@ -1,5 +1,7 @@
-let producto = prompt("Ingrese el  Producto a Comprar");
-while (producto != "Salir") {
+let producto = prompt(
+  "Ingrese el  Producto a Comprar" + "  Escriba Salir para Cancelar "
+);
+while (producto !== "Salir") {
   let precio = prompt("Ingrese el precio unitario del Producto: " + producto);
 
   let cantidad = prompt("Ingrese la Cantidad a comprar ");
@@ -7,5 +9,7 @@ while (producto != "Salir") {
   let total = precio * cantidad;
 
   alert("total a pagar: " + total);
-  producto = prompt("Ingrese el  Producto a Comprar");
+  producto = prompt(
+    "Ingrese el  Producto a Comprar  Escriba Salir para Cancelar"
+  );
 }
